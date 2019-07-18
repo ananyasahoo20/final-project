@@ -1,28 +1,12 @@
 *{
   padding: 0px;
-  margin: 0;
-  border-box: box-shadow;s
+  margin: 0px;
+  border-box: box-shadow;
 }
 
-
-
-/* h1 {
-  background-color: #4A0079;
-  color: white;
-  display: flex;
-  justify-content: flex-start;
-  font-family: 'DM Serif Display', serif;
-  padding: 3%;
-
-} */
-
-head{
-  background-color: #4A0079;
-
-}
-
-#logo {
-  float: left;s
+img {
+  margin-top: -5px;
+  height:70px;
 }
 
 nav {
@@ -35,15 +19,23 @@ nav {
 
 }
 
+
 nav ul {
   list-style-type: none;
   color: white;
   flex-direction: row-reverse;
+  font-size: 50px;
+  margin-bottom: 100px;
+  margin-right: 40px;
 }
 
 nav li {
   display: inline;
   float: right;
+}
+
+#name{
+  margin-top: 15px;
 }
 
 nav a {
@@ -53,6 +45,7 @@ nav a {
   font-size: 27px;
   color: white;
   border-radius: 10px;
+  margin-bottom: 30px;
 }
 
 nav a:hover {
@@ -67,29 +60,6 @@ nav a:hover {
   float: left;
 }
 
-.mission{
-  background-color: #FDF902
-}
-
-img {
-  height:70px;
-}
-
-/* .header {
-
-  width: 100%;
-  display:flex;
-  flex-direction: row;
-} */
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: transparent;
-}
-
 #exitbutton {
   position: fixed;
   display: flex;
@@ -97,19 +67,42 @@ img {
   margin-left: 1100px;
   margin-top: 470px;
   width: 10%;
+}
 
+#hi{
+  font-size: 50px;
+  color: black;
+  border: 5px solid;
+  z-index: 99;
+  margin-top: 100px;
+}
+
+/* #title{
+  margin-top: 100px;
+  font-size: 50px;
+  padding: 30px;
+  text-align: center;
+} */
+
+h1 {
+  color: orchid;
+  margin-top: 150px;
+  text-align: center;
+  padding: 5px;
+  font-size: 60px;
 }
 
 h3 {
-    margin-top: 150px;
+    margin-top: 10px;
     color: purple;
     text-align: center;
+    padding: 20px;
+    font-size: 20px;
   }
 
 img {
-    margin-top: 100px;
-    height: 50%;
-    width: 50%;
-    display: flex;
-    justify-content: center;
+    margin-top: -5px;
+    height: 70px;
 }
+
+.info {
