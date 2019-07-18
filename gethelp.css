@@ -1,27 +1,13 @@
 *{
   padding: 0px;
-  margin: 0;
-  border-box: box-shadow;
+  margin: 0px;
+  border-box: box-shadow;s
 }
 
-
-
-h1 {
-  background-color: #4A0079;
-  color: white;
-  display: flex;
-  justify-content: flex-start;
-  font-family: 'DM Serif Display', serif;
-  padding: 3%;
-
+img {
+  margin-top: -5px;
+  height:70px;
 }
-
-head{
-  background-color: #4A0079;
-
-}
-
-
 
 nav {
   top: 0;
@@ -74,30 +60,6 @@ nav a:hover {
   float: left;
 }
 
-.mission{
-  background-color: #FDF902
-}
-
-img {
-  margin-top: -5px;
-  height:70px;
-}
-
-/* .header {
-
-  width: 100%;
-  display:flex;
-  flex-direction: row;
-} */
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: transparent;
-}
-
 #exitbutton {
   position: fixed;
   display: flex;
@@ -105,5 +67,28 @@ img {
   margin-left: 1100px;
   margin-top: 470px;
   width: 10%;
-
+}
+#idk{
+  font-size: 30px;
+  margin-top: 120px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#P{
+  font-size: 25px;
+  margin-top: 30px;
+}
+#Personalized{
+  margin-top: 30px;
+}
+.hi{
+  font-weight: bold;
+  margin-top: 12px;
+}
+body{
+  background-color: thistle;
+}
+#abuse{
+  font-size: 25px;
+  margin-top: 30px;
 }
