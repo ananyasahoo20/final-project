@@ -9,11 +9,21 @@
 h1 {
   /* background-color: #4A0079; */
   color: #4A0079;
+  margin-top: 40px;
+  margin-left: 40px;
   display: flex;
   justify-content: flex-start;
   font-family: 'DM Serif Display', serif;
-  padding: 3%;
+  /* padding: 3%; */
 
+}
+
+h3{
+  font-size: 25px;
+  margin:20px;
+  padding: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .count{
@@ -29,26 +39,39 @@ h1 {
 #gun{
   margin: 20px;
   display: table-cell;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   text-align: center;
   border-radius: 50%;
-  border: 5px solid;
-  padding: 50px;
+  padding: 15px;
   justify-content: space-between;
-  vertical-align: middle;
+  vertical-align: text-bottom;
+  background-color: #fffdc7
   /* padding-bottom: 30px; */
+}
+
+.count{
+  vertical-align: middle;
+}
+
+.circles{
+  margin: 50px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-around;
+  text-align:center;
+  vertical-align: middle;
 }
 
 head{
   background-color: #4A0079;
+  z-index: auto;
 
 }
 
-#id{
+/* #gun{
   padding:5px;
-  border: 2px solid;
-}
+} */
 
 nav {
   top: 0;
@@ -103,6 +126,7 @@ nav a:hover {
 
 .mission{
   color: black;
+  margin: 10px;
 }
 
 img {
@@ -123,6 +147,8 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: transparent;
+  color: white;
+  z-index: auto;
 }
 
 #exitbutton {
