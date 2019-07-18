@@ -79,6 +79,7 @@ nav a:hover {
 }
 
 img {
+  margin-top: -5px;
   height:70px;
 }
 
@@ -106,8 +107,3 @@ img {
   width: 10%;
 
 }
-
-/* #firefly{
-  display:flex;
-  flex-direction: row;
-} */
