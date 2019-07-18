@@ -86,9 +86,25 @@ nav a:hover {
   margin-top: 12px;
 }
 body{
-  background-color: thistle;
+  background-color: lightyellow;
+  justify-content: center;
 }
 #abuse{
   font-size: 25px;
   margin-top: 30px;
+}
+.google{
+  margin-top: 20px;
+}
+
+#maps{
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.hi{
+  margin-top: 50px;
+}
+#Header2{
+  align-text: center;
 }
