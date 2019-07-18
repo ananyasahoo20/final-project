@@ -1,14 +1,14 @@
 *{
   padding: 0px;
-  margin: 0;
+  margin: 0px;
   border-box: box-shadow;
 }
 
 
 
 h1 {
-  background-color: #4A0079;
-  color: white;
+  /* background-color: #4A0079; */
+  color: #4A0079;
   display: flex;
   justify-content: flex-start;
   font-family: 'DM Serif Display', serif;
@@ -16,12 +16,39 @@ h1 {
 
 }
 
+.count{
+  font-size: 30px;
+  /* display:table-cell;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  border-radius: 50%;
+  border: 5px solid; */
+}
+
+#gun{
+  margin: 20px;
+  display: table-cell;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  border-radius: 50%;
+  border: 5px solid;
+  padding: 50px;
+  justify-content: space-between;
+  vertical-align: middle;
+  /* padding-bottom: 30px; */
+}
+
 head{
   background-color: #4A0079;
 
 }
 
-
+#id{
+  padding:5px;
+  border: 2px solid;
+}
 
 nav {
   top: 0;
@@ -75,7 +102,7 @@ nav a:hover {
 }
 
 .mission{
-  background-color: #FDF902
+  color: black;
 }
 
 img {
