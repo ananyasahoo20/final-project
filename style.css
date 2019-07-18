@@ -21,9 +21,7 @@ head{
 
 }
 
-#logo {
-  float: left;s
-}
+
 
 nav {
   top: 0;
@@ -39,11 +37,19 @@ nav ul {
   list-style-type: none;
   color: white;
   flex-direction: row-reverse;
+  font-size: 50px;
+  margin-bottom: 100px;
+  margin-right: 40px;
 }
 
 nav li {
   display: inline;
   float: right;
+
+}
+
+#name{
+  margin-top: 15px;
 }
 
 nav a {
@@ -53,6 +59,7 @@ nav a {
   font-size: 27px;
   color: white;
   border-radius: 10px;
+  margin-bottom: 30px;
 }
 
 nav a:hover {
