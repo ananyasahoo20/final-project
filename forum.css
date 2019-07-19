@@ -16,6 +16,8 @@ nav {
   background-color: #4A0079;
   padding: 30px;
   position: fixed;
+  font-family: 'Montserrat', sans-serif;
+
 
 }
 
@@ -27,6 +29,8 @@ nav ul {
   font-size: 50px;
   margin-bottom: 100px;
   margin-right: 40px;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 nav li {
@@ -47,6 +51,8 @@ nav a {
   color: white;
   border-radius: 10px;
   margin-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 nav a:hover {
@@ -59,6 +65,8 @@ nav a:hover {
   font-size: 30px;
   color: white;
   float: left;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 #exitbutton {
@@ -68,6 +76,8 @@ nav a:hover {
   margin-left: 1100px;
   margin-top: 470px;
   width: 10%;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 #hi{
@@ -83,8 +93,33 @@ nav a:hover {
   font-size: 50px;
   padding: 30px;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 #nabblelink {
   margin: 50px;
+  z-index:8;
+}
+
+#exitbutton {
+  position: fixed;
+  display: flex;
+  align-items:flex-end;
+  margin-left: 1200px;
+  margin-top: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #ff6161;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  z-index: 5px;
+}
+
+#exitbutton:hover{
+  background-color: white;
+  color: black;
 }
