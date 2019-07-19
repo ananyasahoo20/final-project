@@ -3,10 +3,12 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="./gethelp.css">
-    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald|Playfair+Display|Quicksand&display=swap" rel="stylesheet">
     <title>GetHelpPage</title>
   </head>
   <body>
+
+    <button type="button" id="exitbutton">Safety Exit</button>
         <nav>
       <ul>
       <li id="name"> <a href="./index.html">F I R E F L Y </a> </li>
@@ -18,6 +20,7 @@
         </div>
       </ul>
     </nav>
+
 
 
 <div id="idk">
@@ -126,28 +129,30 @@
       </form>
     <button type="submit" formaction="saveprogress.php">Save Progress</button>
 
+    <div id="linksHELP">
+      <h2 id="resources"> Resources/Links for help with Domestic Abuse</h2>
 
+      <a href="https://www.thehotline.org/">General Information</a>
+      <a class="Link"href="http://www.ncadv.org/">Helpful Website</a>
+      <a class="a"href="https://www.ncjrs.gov/family-violence/">Domestic Violence Justice Reference</a>
+      <a class="b"href="https://www.futureswithoutviolence.org/">Taking action in your communities</a>
+      <a class="c"href="https://medlineplus.gov/domesticviolence.html">What Domestic Violence is</a>
+      <a class="d"href="https://www.justice.gov/ovw/domestic-violence">Legal help in Domestic Violence cases</a>
+    </div>
 </div>
 
 
 
 </div>
-      <form action="/my/link/location" method="get">
-      <input type="submit" value="Safety Exit"
-       name="Safety Exit" id="exitbutton"/>
-    </form>
+
 
 <div id="maps">
     <p>For immediate help, you may go to one these locations:</p>
 </div>
 
 <iframe class="google"src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d21511.950832134255!2d-122.32806330746672!3d47.62625073302373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdomestic+violence+services!5e0!3m2!1sen!2sus!4v1563481203147!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-<div id="linksHELP">
-  <h2 id="resources"> Resources/Links for help with Domestic Abuse</h2>
 
-  <a href="https://www.thehotline.org/" </a>
-  <a href="https://www.acf.hhs.gov/fysb/programs/family-violence-prevention-services/programs/ndvh" </a>
-  <a href="https://ncadv.org/get-help" </a>
-</div>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="./gethelp.js"></script>
+</body>
 </html>

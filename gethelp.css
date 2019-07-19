@@ -4,6 +4,28 @@
   border-box: box-shadow;s
 }
 
+#exitbutton {
+  position: fixed;
+  display: flex;
+  align-items:flex-end;
+  margin-left: 1200px;
+  margin-top: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #ff6161;
+  color: white;
+  font-size: 20px;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#exitbutton:hover{
+  background-color: white;
+  color: black;
+}
+
 img {
   margin-top: -5px;
   height:70px;
@@ -16,6 +38,7 @@ nav {
   background-color: #4A0079;
   padding: 30px;
   position: fixed;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -26,11 +49,13 @@ nav ul {
   font-size: 50px;
   margin-bottom: 100px;
   margin-right: 40px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav li {
   display: inline;
   float: right;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -46,18 +71,21 @@ nav a {
   color: white;
   border-radius: 10px;
   margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav a:hover {
   background-color: #FDF902;
   color: #4A0079;
   transition-duration: .4s;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #name{
   font-size: 30px;
   color: white;
   float: left;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #exitbutton {
@@ -67,19 +95,23 @@ nav a:hover {
   margin-left: 1100px;
   margin-top: 470px;
   width: 10%;
+    font-family: 'Montserrat', sans-serif;
 }
 #idk{
   font-size: 30px;
   margin-top: 120px;
   margin-left: 50px;
   margin-right: 50px;
+    font-family: 'Montserrat', sans-serif;
 }
 #P{
   font-size: 25px;
   margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 #Personalized{
   margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 .hi{
   font-weight: bold;
@@ -88,10 +120,12 @@ nav a:hover {
 body{
   background-color: lightyellow;
   justify-content: center;
+    font-family: 'Montserrat', sans-serif;
 }
 #abuse{
   font-size: 25px;
   margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 .google{
   margin-top: 20px;
@@ -100,6 +134,7 @@ body{
 #maps{
   font-size: 25px;
   margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .hi{
@@ -107,10 +142,36 @@ body{
 }
 #Header2{
   align-text: center;
+  margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
 }
 #resources{
 
 margin-top: 40px;
 margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
 
+}
+
+#linksHELP{
+  margin-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.Link{
+  margin-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.a{
+  margin-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.b{
+  margin-left: 40px;
+}
+.c{
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.d{
+  margin-left: 40px;
 }
